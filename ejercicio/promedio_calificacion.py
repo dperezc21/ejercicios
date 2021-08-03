@@ -13,4 +13,4 @@ if __name__ == '__main__':
         if i == query_name:
             suma = sum(student_marks[query_name])
             promedio = suma/len(student_marks[query_name])
-            print(round(promedio,2))
+            print(format(promedio, ".2f"))
